@@ -10,6 +10,7 @@ echo "********************************************************************"
 echo "********************************************************************"
 echo ""
 
+rm -rf gittest
 mkdir gittest
 cd gittest
 git clone https://github.com/siwansiwan/devops-pvt

@@ -10,9 +10,7 @@ echo "********************************************************************"
 echo "********************************************************************"
 echo ""
 
-rm -rf gittest
-mkdir gittest
-cd gittest
+rm -rf devops
 git clone https://github.com/siwansiwan/devops
 cd devops
 git remote add upstream https://github.com/ssiwan/devops

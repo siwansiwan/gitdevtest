@@ -11,9 +11,9 @@ echo "********************************************************************"
 echo ""
 
 rm -rf devops
-git clone https://github.com/siwansiwan/devops
+git clone git@github.com:siwansiwan/devops.git
 cd devops
-git remote add upstream https://github.com/ssiwan/devops
+git remote add upstream git@github.com:ssiwan/devops.git
 git fetch upstream
 git rebase upstream/master 
 git push -f origin master 

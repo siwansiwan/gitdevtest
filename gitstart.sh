@@ -15,9 +15,7 @@ git clone git@github.com:siwansiwan/devops.git
 cd devops
 git remote add upstream git@github.com:ssiwan/devops.git
 git fetch upstream
-git checkout master
-git rebase upstream/master 
-git push -f origin master
+git push origin master
 echo ""
 echo "********************************************************************"
 echo "********************************************************************"

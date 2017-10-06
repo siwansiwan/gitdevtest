@@ -15,7 +15,6 @@ git clone https://github.com/siwansiwan/devops
 cd devops
 git remote add upstream https://github.com/ssiwan/devops
 git fetch upstream
-git checkout master
 git rebase upstream/master 
 git push -f origin master 
 
